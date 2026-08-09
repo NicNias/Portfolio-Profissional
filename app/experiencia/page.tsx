@@ -16,7 +16,7 @@ export default function Experiencia() {
           Experiência profissional
         </h1>
         <p className="mt-4 max-w-xl text-muted">
-          Do freelance ao corporativo — a ordem cronológica real de onde estive.
+          Do freelance ao corporativo, a ordem cronológica real de onde estive.
         </p>
       </Reveal>
 

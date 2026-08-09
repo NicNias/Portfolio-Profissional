@@ -15,7 +15,7 @@ export default function Sobre() {
         </h1>
         <p className="mt-5 max-w-2xl text-balance text-base leading-relaxed text-muted md:text-lg">
           {personal.summary} Hoje atuo como {experienceRoleNote()} em {personal.location}, transitando
-          entre frontend, mobile, backend corporativo e infraestrutura de deploy — sempre buscando o
+          entre frontend, mobile, backend corporativo e infraestrutura de deploy, sempre buscando o
           equilíbrio entre entregar rápido e entregar bem.
         </p>
       </Reveal>
@@ -59,7 +59,7 @@ export default function Sobre() {
 
       <Reveal delay={0.15} className="mt-16 rounded-xl border border-line bg-ink-elevated/60 p-6 md:p-8">
         <h2 className="font-display text-xl font-medium text-paper">Estudando agora</h2>
-        <p className="mt-2 text-sm text-muted">Em constante atualização — o que está no forno no momento:</p>
+        <p className="mt-2 text-sm text-muted">Em constante atualização, o que está no forno no momento:</p>
         <div className="mt-4 flex flex-wrap gap-2">
           {currentlyStudying.map((item) => (
             <span

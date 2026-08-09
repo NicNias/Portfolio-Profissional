@@ -10,7 +10,7 @@ export const personal = {
   tagline: "Desenvolvedor Full-Stack e Mobile",
   location: "Recife, Pernambuco, Brasil",
   summary:
-    "Desenvolvedor Full-Stack e Mobile apaixonado por criar soluções inovadoras e eficientes para problemas reais — do frontend ao banco de dados, passando pelo deploy.",
+    "Desenvolvedor Full-Stack e Mobile apaixonado por criar soluções inovadoras e eficientes para problemas reais, do frontend ao banco de dados, passando pelo deploy.",
   email: "ananiasdias0@gmail.com",
   phone: "+55 81 99892-8796",
   linkedin: "https://www.linkedin.com/in/naniasnic",
@@ -100,10 +100,11 @@ export const experience: ExperienceEntry[] = [
       "Manutenção e criação de projetos do zero em Angular 2+ com TypeScript, seguindo a arquitetura definida do projeto.",
       "Manutenção e criação de APIs REST e microsserviços em Java 8+ utilizando Quarkus.",
       "Desenvolvimento de microsserviços que se comunicam com o front-end através de uma camada de Gateway.",
+      "Escrita de testes unitários com Karma, JUnit e Mockito, com acompanhamento de qualidade via SonarQube.",
       "Execução de pipelines de deploy CI/CD via GitHub Actions, rodando workflows já configurados pelo time.",
       "Organização de tarefas em metodologia Scrum, utilizando sistema pré-definido pelo cliente para gestão do backlog e sprints.",
     ],
-    stack: ["TypeScript", "Angular 2+", "Java 8/17/21", "Quarkus", "API Gateway", "GitHub Actions", "Scrum"],
+    stack: ["TypeScript", "Angular 2+", "Java 8/17/21", "Quarkus", "API Gateway", "GitHub Actions", "Scrum", "Karma", "JUnit", "Mockito", "SonarQube"],
   },
   {
     company: "Sulwork",
