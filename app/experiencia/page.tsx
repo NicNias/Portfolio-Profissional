@@ -1,5 +1,6 @@
 import Reveal from "@/components/Reveal";
 import { experience, personal } from "@/data/profile";
+import { calcularDuracao } from "@/utils/calcularDuracao";
 import { MapPin } from "lucide-react";
 
 export const metadata = {
@@ -35,7 +36,7 @@ export default function Experiencia() {
                   <h2 className="font-display text-xl font-medium text-paper md:text-2xl">
                     {job.role}
                   </h2>
-                  <span className="font-mono text-xs text-teal">{job.duration}</span>
+                  <span className="font-mono text-xs text-teal">{calcularDuracao(job.startDate, job.endDate)}</span>
                 </div>
                 <p className="mt-1 font-medium text-copper">{job.company}</p>
                 <div className="mt-1 flex flex-wrap items-center gap-3 font-mono text-xs text-muted">
