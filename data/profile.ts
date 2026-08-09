@@ -97,7 +97,7 @@ export const experience: ExperienceEntry[] = [
     startDate: "2026-04-22",
     location: "Recife, PE",
     bullets: [
-      "Manutenção e criação de projetos do zero em Angular 2+ com TypeScript, seguindo a arquitetura definida do projeto.",
+      "Manutenção de projetos legados e criação de projetos do zero em Angular 2+ com TypeScript, seguindo a arquitetura definida do projeto.",
       "Manutenção e criação de APIs REST e microsserviços em Java 8+ utilizando Quarkus.",
       "Desenvolvimento de microsserviços que se comunicam com o front-end através de uma camada de Gateway.",
       "Escrita de testes unitários com Karma, JUnit e Mockito, com acompanhamento de qualidade via SonarQube.",
