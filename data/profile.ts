@@ -82,7 +82,8 @@ export type ExperienceEntry = {
   company: string;
   role: string;
   period: string;
-  duration: string;
+  startDate: string;
+  endDate?: string;
   location: string;
   bullets: string[];
   stack: string[];
@@ -93,18 +94,23 @@ export const experience: ExperienceEntry[] = [
     company: "Accenture",
     role: "Custom Software Engineering Associate",
     period: "Abril de 2026 — Presente",
-    duration: "5 meses",
+    startDate: "2026-04-22",
     location: "Recife, PE",
     bullets: [
-      "Atuação em projetos de engenharia de software sob medida para clientes corporativos.",
+      "Manutenção e criação de projetos do zero em Angular 2+ com TypeScript, seguindo a arquitetura definida do projeto.",
+      "Manutenção e criação de APIs REST e microsserviços em Java 8+ utilizando Quarkus.",
+      "Desenvolvimento de microsserviços que se comunicam com o front-end através de uma camada de Gateway.",
+      "Execução de pipelines de deploy CI/CD via GitHub Actions, rodando workflows já configurados pelo time.",
+      "Organização de tarefas em metodologia Scrum, utilizando sistema pré-definido pelo cliente para gestão do backlog e sprints.",
     ],
-    stack: ["TypeScript", "React.js", "Java", "Spring Boot"],
+    stack: ["TypeScript", "Angular 2+", "Java 8/17/21", "Quarkus", "API Gateway", "GitHub Actions", "Scrum"],
   },
   {
     company: "Sulwork",
     role: "Desenvolvedor de Software Jr.",
     period: "Setembro de 2025 — Abril de 2026",
-    duration: "8 meses",
+    startDate: "2025-09-08",
+    endDate: "2026-04-17",
     location: "Recife, PE",
     bullets: [
       "Desenvolvimento de novas funcionalidades com Java 8 e Java 17 + Spring Boot.",
@@ -122,7 +128,8 @@ export const experience: ExperienceEntry[] = [
     company: "Sagach",
     role: "Desenvolvedor Full-Stack e Mobile",
     period: "Setembro de 2023 — Agosto de 2025",
-    duration: "2 anos",
+    startDate: "2023-09-06",
+    endDate: "2025-08-29",
     location: "Brejo da Madre de Deus, PE",
     bullets: [
       "Desenvolvimento de aplicativos para Android e iOS com React Native.",
@@ -136,7 +143,8 @@ export const experience: ExperienceEntry[] = [
     company: "Freelance",
     role: "Desenvolvedor Web",
     period: "Janeiro de 2019 — Agosto de 2025",
-    duration: "6 anos e 8 meses",
+    startDate: "2019-01-01",
+    endDate: "2025-08-29",
     location: "Recife, PE",
     bullets: [
       "Desenvolvimento de sites, sistemas, landing pages e aplicativos para diversos clientes.",
