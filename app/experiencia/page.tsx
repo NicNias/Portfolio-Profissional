@@ -3,6 +3,8 @@ import { experience, personal } from "@/data/profile";
 import { calcularDuracao } from "@/utils/calcularDuracao";
 import { MapPin } from "lucide-react";
 
+export const dynamic = "force-dynamic";
+
 export const metadata = {
   title: `Experiência — ${personal.name}`,
 };
