@@ -12,7 +12,6 @@ export const personal = {
   summary:
     "Desenvolvedor Full-Stack e Mobile apaixonado por criar soluções inovadoras e eficientes para problemas reais, do frontend ao banco de dados, passando pelo deploy.",
   email: "ananiasdias0@gmail.com",
-  phone: "+55 81 99892-8796",
   linkedin: "https://www.linkedin.com/in/naniasnic",
   github: "https://github.com/NicNias",
   // Troque este placeholder pela sua foto real: coloque o arquivo em
@@ -23,8 +22,8 @@ export const personal = {
 
 export const languages = [
   { name: "Português", level: "Nativo" },
-  { name: "Inglês", level: "Profissional" },
-  { name: "Espanhol", level: "Profissional" },
+  { name: "Inglês", level: "intermediário" },
+  { name: "Espanhol", level: "intermediário" },
 ];
 
 export const certifications = [

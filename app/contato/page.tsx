@@ -1,6 +1,6 @@
 import Reveal from "@/components/Reveal";
 import { personal } from "@/data/profile";
-import { Mail, Phone, Linkedin, Github, ArrowUpRight } from "lucide-react";
+import { Mail, Linkedin, Github, ArrowUpRight } from "lucide-react";
 
 export const metadata = {
   title: `Contato — ${personal.name}`,
@@ -12,12 +12,6 @@ const channels = [
     value: personal.email,
     href: `mailto:${personal.email}`,
     icon: Mail,
-  },
-  {
-    label: "Telefone",
-    value: personal.phone,
-    href: `tel:${personal.phone.replace(/\D/g, "")}`,
-    icon: Phone,
   },
   {
     label: "LinkedIn",
